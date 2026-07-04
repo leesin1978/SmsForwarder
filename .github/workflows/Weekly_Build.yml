@@ -18,7 +18,7 @@ jobs:
       output: "${{ github.workspace }}/build/app/outputs/apk/release"
     steps:
       # 检出代码
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       # 删除旧的工作流
       - name: Delete Weekly Build
         uses: Mattraks/delete-workflow-runs@v2
